@@ -1,9 +1,13 @@
+/* eslint-disable prettier/prettier */
 import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
+import Typical from 'react-typical'
+import Image from '@/components/Image'
+import Steven from '/public/static/images/Steven.jpg'
 
 import NewsletterForm from '@/components/NewsletterForm'
 
@@ -19,15 +23,42 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
+
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Latest
+          <h1 className="shadow-emerald-500-text-2xl font-extrabold leading-9 tracking-wide text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            <Typical
+              steps={[
+                'Software Engineer',
+                1000,
+                'Cloud Architect',
+                1000,
+                'Digital Artist',
+                1000,
+                'Designer',
+                1000,
+                'Developer',
+                1000,
+                'Programmer',
+                1000,
+                'UI/UX Engineer',
+                1000,
+                '1337 C0D3R',
+                1000,
+                'I am Steven Rugg',
+                1000,
+              ]}
+              wrapper="h1"
+              loop={Infinity}
+            />
           </h1>
+
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
           </p>
         </div>
+
+        <h4 className="font-3xl font-mono">Most Recent Posts</h4>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {

@@ -1,16 +1,16 @@
 ---
-name: Tails Azimuth
+name: Steven Rugg
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+occupation: Software Engineer
+company: Zencoder | Online
+email: steven.rugg@zencoderonline
+twitter: https://twitter.com/stevensupergeek
+linkedin: https://www.linkedin.com/in/stevenwrugg
+github: https://github.com/stevenrugg
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+# Steven Rugg
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+Steven Rugg live in Seattle, WA and works as a freelance software engineer. In his free time, he loves to hike, mountain climb, rock climb, spend time in nature and with his friends and family. His head and heart often tell him to take two very different paths.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+He is an outspoken proponent of renewable, sustainable, clean energy and scrubbing/off-setting as much CO2 out of the atmosphere as humanly possible. Our predecessors have left us with a dire situation. You may judge one on "removable storage", however "removable storage" is now the way of the world.
