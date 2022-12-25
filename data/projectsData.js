@@ -11,7 +11,7 @@ const projectsData = [
     description: `A beautiful animal animation using pure vanilla JavaScript, CSS3 and HTML5. I used a site that
     splits shapes up into svg segments then used an array containing the rgb rainbow and mapped those colors onto the 
     svg sections then animated the whole thing. It came out surprisingly well.`,
-    imgSrc: '/static/images/',
+    imgSrc: '/static/images/animatedanimals.png',
     href: 'https://stevenrugg.github.io/animated-animals',
   },
 ]
