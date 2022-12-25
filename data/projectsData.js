@@ -1,19 +1,18 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'A Calculator in C#',
+    description: `Windows .exe program. A simple calculator written in C#. This calculator will add, subtract, 
+    multiply and divide. The calculator GUI is made using Xamarin and Windows.Forms classes in .NET.`,
+    imgSrc: '/static/images/hqdefault.jpg',
+    href: 'https://github.com/stevenrugg/Calculator/',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Animated Animals',
+    description: `A beautiful animal animation using pure vanilla JavaScript, CSS3 and HTML5. I used a site that
+    splits shapes up into svg segments then used an array containing the rgb rainbow and mapped those colors onto the 
+    svg sections then animated the whole thing. It came out surprisingly well.`,
+    imgSrc: '/static/images/',
+    href: 'https://stevenrugg.github.io/animated-animals',
   },
 ]
 
