@@ -14,6 +14,12 @@ const projectsData = [
     imgSrc: '/static/images/animatedanimals.png',
     href: 'https://stevenrugg.github.io/animated-animals',
   },
+  {
+    title: 'Dcorder-Web-and-Mobile-Application-ssSolutions',
+    description: 'Solutions to word problems pusted by ',
+    imgSrc: '',
+    href: '',
+  },
 ]
 
 export default projectsData
