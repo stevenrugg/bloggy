@@ -1,6 +1,6 @@
 ---
 title: Dcoder App Solutions in Python3
-date: '2016-03-08'
+date: '2022-10-25'
 tags: ['Dcoder', 'Dcoder.tech', 'problems', 'solutions to problems', 'word problems', 'python']
 draft: false
 summary:
