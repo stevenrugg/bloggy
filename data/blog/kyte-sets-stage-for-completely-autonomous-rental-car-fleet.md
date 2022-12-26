@@ -6,7 +6,7 @@ draft: false
 summary: The startup Kyte has set the stage for an autonomous fleet of rental cars. Kyte seeks to shake up the rental car industry.
 ---
 
-![Kyte Rental Car](https://cdn.geekwire.com/wp-content/uploads/2021/08/20200726_KYTE_JH_0986-1260x840.jpg)
+![Kyte Surfer](https://drivekyte.s3-us-west-2.amazonaws.com/kyteweb-assets/landing/Parachute_Hero_1800.png)
 
 # Kyte Looks to Create Autonomous Rental Car Fleet
 
@@ -40,13 +40,13 @@ In Seattle, Kyte operates:
 - Jeep Compass
 - Toyota RAV4
 
-![Kyte Surfer](https://drivekyte.s3-us-west-2.amazonaws.com/kyteweb-assets/landing/Parachute_Hero_1800.png)
+![Kyte Rental Car](https://cdn.geekwire.com/wp-content/uploads/2021/08/20200726_KYTE_JH_0986-1260x840.jpg)
 
 A Kyte Surfer delivers and picks up your vehicle for return.
 Kyte calls their independently contracted employees ‘Kyte Surfers’.
 
 Kyte Surfers use the instant messaging app Slack to do their work. A better UI/UX Kyte promises,
-still has several months to roll my ihout. Kyte is currently hiring several frontend & backend engineers.
+still has several months till rollout. Kyte is currently hiring several frontend & backend engineers.
 Hopefully they hire me too! The new Kyte app may just revolutionize the industry. Leading the way in Logistics
 and Telemetrics from cars on the road, maybe we’ll see Samsara join Kyte to make fully autonomous vehicles
 the reality in the US?

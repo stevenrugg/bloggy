@@ -13,7 +13,7 @@ const Giscus = () => {
         : siteMetadata.comment.giscusConfig.theme
       : siteMetadata.comment.giscusConfig.themeURL
 
-  const COMMENTS_ID = 'comments-container'
+  const COMMENTS_ID = 'Comments'
 
   const LoadComments = useCallback(() => {
     setEnabledLoadComments(false)

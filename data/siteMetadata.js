@@ -47,10 +47,10 @@ const siteMetadata = {
       mapping: 'pathname', // supported options: pathname, url, title
       reactions: '1', // Emoji reactions: 1 = enable / 0 = disable
       // Send discussion metadata periodically to the parent window: 1 = enable / 0 = disable
-      metadata: '0',
+      metadata: '1',
       // theme example: light, dark, dark_dimmed, dark_high_contrast
       // transparent_dark, preferred_color_scheme, custom
-      theme: 'light',
+      theme: 'preferred_color_scheme',
       // Place the comment box above the comments. options: bottom, top
       inputPosition: 'bottom',
       // Choose the language giscus will be displayed in. options: en, es, zh-CN, zh-TW, ko, ja etc
@@ -66,13 +66,13 @@ const siteMetadata = {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://utteranc.es/
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO,
-      issueTerm: '', // supported options: pathname, url, title
-      label: '', // label (optional): Comment 💬
+      issueTerm: 'pathname', // supported options: pathname, url, title
+      label: 'Comments', // label (optional): Comment 💬
       // theme example: github-light, github-dark, preferred-color-scheme
       // github-dark-orange, icy-dark, dark-blue, photon-dark, boxy-light
-      theme: '',
+      theme: 'Preferred Theme',
       // theme when dark mode
-      darkTheme: '',
+      darkTheme: 'Preferred Theme',
     },
     disqusConfig: {
       // https://help.disqus.com/en/articles/1717111-what-s-a-shortname
