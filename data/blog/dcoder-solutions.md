@@ -12,7 +12,7 @@ summary:
 
 Dcoder is a website and mobile application (for iOS and Android) that provide a REPL of HTML5, CSS3, and JavaScript (ES6). Also found on the site are world problems similar to what you would see on sites such as [HackerRank](https://www.hackerrank.com/) or [LeetCode](https://www.leetcode.com).
 
-## Python3 problems:
+## Python3 problems
 
 1. INPUT: two integers A and B, a list of integers C
    1a. OUTPUT: a list of integers lst
