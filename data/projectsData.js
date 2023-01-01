@@ -15,8 +15,8 @@ const projectsData = [
     href: 'https://stevenrugg.github.io/animated-animals',
   },
   {
-    title: 'Dcorder-Web-and-Mobile-Application-ssSolutions',
-    description: 'Solutions to word problems pusted by ',
+    title: 'Dcoder-Web-and-Mobile-Application-Solutions',
+    description: 'Solutions to word problems posted to Dcoder in Python3 and JavaScript.  ',
     imgSrc: '',
     href: '',
   },

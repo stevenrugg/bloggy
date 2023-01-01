@@ -15,8 +15,10 @@ Dcoder is a website and mobile application (for iOS and Android) that provide a 
 ## Python3 problems
 
 1. INPUT: two integers A and B, a list of integers C
-   1a. OUTPUT: a list of integers lst
-   1b. first integer of input is length of list comprehension, second is target integer. Create a list comprehension with correct length using space seperated integers form C, use a for loop to iterate through, adding all the items matching target integer to return list.
+   OUTPUT: a list of integers lst
+   1a. First integer of input is length of list comprehension, second is target integer.
+   1b. Create a list comprehension with correct length using space seperated integers from input C.
+   1c. Use a for loop to iterate through, adding all the items matching target integer to return list lst.
 
 ```python
 A = int(input())
@@ -25,7 +27,7 @@ B = int(input())
 nums = [int(x) for x in input().split(" ")]
 lst = []
 for elem in nums:
-    if B in nums:
-        lst.push(B)
+    if nums[elem] == B:
+        lst.append(nums[elem])
 print(lst)
 ```
